@@ -1,0 +1,41 @@
+
+> uigen@0.1.0 dev
+> next dev --turbopack
+
+▲ Next.js 16.2.4 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.84:3000
+- Environments: .env
+✓ Ready in 2.1s
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+(node:23920) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+ GET / 200 in 1513ms (next.js: 400ms, proxy.ts: 140ms, application-code: 972ms)
+Error: Both middleware file "./src\middleware.ts" and proxy file "./src\proxy.ts" are detected. Please use "./src\proxy.ts" only. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+    at ignore-listed frames
+⨯ unhandledRejection: Error: Both middleware file "./src\middleware.ts" and proxy file "./src\proxy.ts" are detected. Please use "./src\proxy.ts" only. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+    at ignore-listed frames
+⨯ unhandledRejection:  Error: Both middleware file "./src\middleware.ts" and proxy file "./src\proxy.ts" are detected. Please use "./src\proxy.ts" only. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+    at ignore-listed frames
+Error: Both middleware file "./src\middleware.ts" and proxy file "./src\proxy.ts" are detected. Please use "./src\proxy.ts" only. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+    at ignore-listed frames
+⨯ unhandledRejection: Error: Both middleware file "./src\middleware.ts" and proxy file "./src\proxy.ts" are detected. Please use "./src\proxy.ts" only. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+    at ignore-listed frames
+⨯ unhandledRejection:  Error: Both middleware file "./src\middleware.ts" and proxy file "./src\proxy.ts" are detected. Please use "./src\proxy.ts" only. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+    at ignore-listed frames
+✓ Compiled in 720ms
+ GET / 200 in 672ms (next.js: 261ms, proxy.ts: 182ms, application-code: 230ms)
+ GET / 200 in 149ms (next.js: 30ms, proxy.ts: 21ms, application-code: 98ms)
+ GET / 200 in 193ms (next.js: 26ms, proxy.ts: 17ms, application-code: 149ms)
+ GET / 200 in 454ms (next.js: 21ms, proxy.ts: 18ms, application-code: 415ms)
+ GET / 200 in 360ms (next.js: 34ms, proxy.ts: 44ms, application-code: 282ms)
+ GET / 200 in 358ms (next.js: 77ms, proxy.ts: 43ms, application-code: 237ms)
+ GET / 200 in 357ms (next.js: 116ms, proxy.ts: 45ms, application-code: 197ms)
+ GET / 200 in 361ms (next.js: 226ms, proxy.ts: 48ms, application-code: 87ms)
+ GET / 200 in 365ms (next.js: 168ms, proxy.ts: 47ms, application-code: 150ms)
+ GET / 200 in 291ms (next.js: 39ms, proxy.ts: 12ms, application-code: 240ms)
+ GET / 200 in 266ms (next.js: 32ms, proxy.ts: 73ms, application-code: 162ms)
+ GET / 200 in 265ms (next.js: 62ms, proxy.ts: 83ms, application-code: 120ms)
+ GET / 200 in 209ms (next.js: 127ms, proxy.ts: 27ms, application-code: 55ms)
+[?25h
