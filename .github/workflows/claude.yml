@@ -17,6 +17,20 @@ jobs:
       pull-requests: write
       id-token: write
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Project Setup
+        run: |
+          npm run setup
+          npm run dev:daemon
+
       - name: Run Claude Code Action
         uses: anthropics/claude-code-action@v1
         with:
